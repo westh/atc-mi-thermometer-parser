@@ -10,7 +10,7 @@ npm install @westh/atc-mi-thermometer-parser
 ## Usage
 
 ```javascript
-const atcMiThermometerParser = require('@westh/umxxc-parser')
+const atcMiThermometerParser = require('@westh/atc-mi-thermometer-parser')
 
 const messageToBeParsed = Buffer.from('...') // ...data you've gotten via BLE from the ATC flashed Mi Thermometer
 const parsedMessage = atcMiThermometerParser.parse(messageToBeParsed)
